@@ -163,10 +163,18 @@ class MultipleStorePriceTracker():
         t2.start()
 
 
+def check_internet():
+    try:
+        requests.get("https://google.com")
+    
+    except Exception:
+        raise Exception("Make sure you're connected to internet!")
+
+
 
 if __name__ == "__main__":
-
-    print("Welcome to the Ecommerce Price Tracker! A tool which you can use to track prices for a given product on Amazon and Flipkat.\n")
+    check_internet()
+    print("Welcome to the Ecommerce Price Tracker! A tool which you can use to track prices for a given product on Amazon and Flipkart.\n")
 
     track_opt = input("Where to track prices?\n 1. Amazon \n 2. Flipkart \n 3. Both\n")
 

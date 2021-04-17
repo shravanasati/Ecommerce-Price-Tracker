@@ -15,7 +15,7 @@ To use the **Ecommerce-Price-Tracker**, you just need the product name, product 
 * Product URL - The URL of the product page on Amazon or Flipkart
 * Desired price - The least price you want to buy the product at. When this price will be lower or eqaul to the actual price of the product, you'll be notified via a email.
 
-**Also provide your email and email password in the `PriceTracker` class, and enable less secure apps on your email service provider before running the program.**
+**Also provide your email and email password in the `credentials.json` file, and enable less secure apps on your email service provider before running the program.**
 
 ## Dependencies
 *External modules used:*
@@ -39,4 +39,5 @@ Type the following command in your Git Bash:
 The whole repository would be cloned in the directory you opened the Git Bash in.
 
 ### Using GitHub ZIP download
-You can alternatively download the repository as a zip file using the GitHub **Download ZIP** feature by clicking [here](https://github.com/Shravan-1908/Ecommerce-Price-Tracker/archive/master.zip).
+You can alternatively download the repository as a zip file using the
+GitHub **Download ZIP** feature by clicking [here](https://github.com/Shravan-1908/Ecommerce-Price-Tracker/archive/master.zip).

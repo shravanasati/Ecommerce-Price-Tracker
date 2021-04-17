@@ -9,14 +9,18 @@ from threading import Thread
 import re
 import requests
 import os
+import json
 
 
 class PriceTracker(ABC):
     """
     Base class for Price Trackers.
     """
-    email = "your email here"
-    password = "your email password here"
+    with open("credentials.json") as f:
+        fc = f.read()
+        parser = json.loads(fc)
+    email = parser["email"]
+    password = parser["password"]
     removals = re.compile(r"₹|,|[$]")
 
     def __init__(self, product_name: str, product_url: str, desired_price: int) -> None:
@@ -168,7 +172,8 @@ def check_internet():
         requests.get("https://google.com")
     
     except Exception:
-        raise Exception("Make sure you're connected to internet!")
+        print("Make sure you're connected to the internet!")
+        quit()
 
 
 

@@ -33,11 +33,11 @@ Download all the above mentioned modules at once by executing the command `pip i
 Type the following command in your Git Bash:
 
 - For SSH:
-```git clone git@github.com:Shravan-1908/Ecommerce-Price-Tracker.git```
-- For HTTPS: ```git clone https://github.com/Shravan-1908/Ecommerce-Price-Tracker.git```
+```git clone git@github.com:shravanasati/Ecommerce-Price-Tracker.git```
+- For HTTPS: ```git clone https://github.com/shravanasati/Ecommerce-Price-Tracker.git```
 
 The whole repository would be cloned in the directory you opened the Git Bash in.
 
 ### Using GitHub ZIP download
 You can alternatively download the repository as a zip file using the
-GitHub **Download ZIP** feature by clicking [here](https://github.com/Shravan-1908/Ecommerce-Price-Tracker/archive/master.zip).
+GitHub **Download ZIP** feature by clicking [here](https://github.com/shravanasati/Ecommerce-Price-Tracker/archive/master.zip).
